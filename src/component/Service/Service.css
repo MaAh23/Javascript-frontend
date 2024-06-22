@@ -1,0 +1,60 @@
+.service {
+  background-color: #F0EFE9;
+  padding-bottom: 110px;
+}
+.service .container {
+  display: block;
+}
+.service .container .section-tittle {
+  width: 500px;
+  padding-bottom: 20px;
+}
+.service .container .parent-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px;
+}
+.service .container .parent-box .child-box {
+  background-color: white;
+  padding: 50px 35px;
+}
+.service .container .parent-box .child-box h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.service .container .parent-box .child-box p {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.service .container .parent-box .child-box i {
+  background-color: #191919;
+  color: #ffffff;
+  padding: 18px;
+  border-radius: 50px;
+}
+.service .container .parent-box .child-box .i-position {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.service .container .parent-box .child-box.secend {
+  background-color: #F9D783;
+}
+.service .container .parent-box .child-box.secend i {
+  background-color: #ffffff;
+  color: #191919;
+}
+.service .container .center-content {
+  margin-top: 40px;
+  text-align: center;
+}
+.service .container .center-content a {
+  background-color: #F0EFE9;
+  color: #191919;
+ 
+}
+

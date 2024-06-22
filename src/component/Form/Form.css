@@ -1,0 +1,52 @@
+.contact-formular {
+    background-color: #F0EFE9;
+    padding-bottom: 100px;
+    margin: 50px 155px;
+    
+  }
+  .contact-formular .container {
+    text-align: center;
+    padding-top: 80px;
+    display: block;
+  }
+  .contact-formular .container .formular-rubrik {
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+  .contact-formular .container .input .searchbox {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 25px;
+    padding: 8px 20px;
+    margin: 12px 90px;
+  }
+  .contact-formular .container .input .searchbox input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .contact-formular .container .input .box1 {
+    background-color: #ffffff;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    border-radius: 25px;
+    padding: 8px 20px;
+    margin: 12px 90px;
+  }
+  .contact-formular .container .input .box1 input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-bottom: 100px;
+  }
+
+ 
+  .contact-formular .container .btn-yellow {
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-top: 25px;
+  }
+  

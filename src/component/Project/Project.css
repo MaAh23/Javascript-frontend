@@ -1,0 +1,50 @@
+.project-section .container{
+    display: block;
+}
+.project-section .container .section-tittle {
+    text-align: center;
+}
+.project-section .container .section-tittle h2{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 0px;
+}
+  .project-section .container .project-case {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .project-section .container .project-case article img {
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+  }
+  .project-section .container .project-case article h3 {
+    font-family: "DM Sans" sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 35px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #dad9d3;
+    
+  }
+  .project-section .container .project-case article a {
+    padding: 20px 15px;
+    margin-right: 10px;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #191919;
+  }
+  .project-section .container .project-case article a i {
+    margin-left: 5px;
+  }
+  .project-section .container .center-content {
+    margin-top: 50px;
+    margin-bottom: 90px;
+    text-align: center;
+  }

@@ -1,0 +1,22 @@
+.sociala-footer {
+    background-color: #0e1021;
+    border-top: 1px solid rgb(118, 118, 118);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #f0efe9;
+  }
+  .sociala-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sociala-footer .container .title p {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .sociala-footer .container .sociala-medier a {
+    color: #f0efe9;
+    margin-left: 12px;
+  }
+  

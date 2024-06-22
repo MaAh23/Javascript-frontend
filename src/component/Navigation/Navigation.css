@@ -1,0 +1,80 @@
+.nav{
+    background-color: #F0EFE9 ;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+   
+}
+.container .menu-bars {
+    border: none;
+    font-size: 23px;
+    background-color: transparent;
+   
+}
+.container .meny {
+    flex: 1;
+    padding: 15px 0px;
+}
+.container .top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dad9d3;
+    padding-bottom: 10px;
+}
+
+.container .top-menu .contact-info {
+    display: flex;
+    align-items: center;
+}
+.container .top-menu .contact-info .info-box {
+    padding-right: 30px;
+    margin-right: 40px;
+    border-right: 1px solid #dad9d3;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+.container .top-menu .contact-info .info-box i {
+    margin-right: 5px;
+    font-size: 19px;
+    color: #423d3d;
+}
+.container .top-menu .contact-info .info-box.last {
+    border: none;
+}
+.container .top-menu .sociala-medier a {
+    color: #191919;
+    font-size: 20px;
+    margin-left: 12px;
+}
+.container .top-menu .sociala-medier a:hover {
+    color: #423d3d;
+}
+.container .under-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.container .under-menu nav a {
+    display: inline-block;
+    color: #191919;
+    text-decoration: none;
+    margin-right: 40px;
+    position: relative;
+}
+.container .under-menu nav a.activ::after, header .container .under-menu nav a:hover::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 15px;
+    background-color: #191919;
+    left: 50%;
+    bottom: -3px;
+}

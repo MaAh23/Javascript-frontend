@@ -1,0 +1,41 @@
+.box-contact {
+    background-color: #ffffff;
+    padding-bottom: 50px;
+  }
+  .box-contact .container {
+
+    margin-top: 60px;
+  }
+  .box-contact .container .parnetBox-contact {
+    display: flex;
+    margin: auto;
+    padding: 0px;
+    gap: 40px;
+  }
+  .box-contact .container .parnetBox-contact .box-contact {
+    border: 1px solid rgb(214, 213, 213);
+    padding: 40px 90px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .box-contact .container .parnetBox-contact .box-contact .box-text1 h3 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 8px;
+  }
+  .box-contact .container .parnetBox-contact .box-contact .box-text1 p {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .box-contact .container .parnetBox-contact .box-contact .box-logo1 {
+    padding-right: 20px;
+  }
+  .box-contact .container .parnetBox-contact .box-contact i {
+    background-color: #191919;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 20px;
+  }

@@ -1,0 +1,62 @@
+.about-company-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .about-company-section .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    z-index: -1;
+  }
+ 
+  .about-company-section .container .first-part .over-pic {
+    background-color: #DEEDFF;
+    padding: 30px 20px;
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    bottom: 70px;
+    left: -30;
+    z-index: 0;
+  }
+  .about-company-section .container .first-part .over-pic .strong {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .about-company-section .container .first-part .over-pic .strong-1 {
+    color: #f94d1c;
+  }
+  .about-company-section .container .section-tittle {
+    padding-top: 0;
+    
+  }
+  .about-company-section .container .section-tittle h2 {
+    padding-bottom: 20px;
+    
+    
+  }
+  .about-company-section .container .section-tittle .text {
+    color: #191919;
+    padding-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    
+    
+  }
+  .about-company-section .container .section-tittle .play-btn {
+    display: flex;
+    align-items: center;
+    padding-top: 90px;
+  }
+  .about-company-section .container .section-tittle .play {
+    padding: 15px;
+    border: 1px solid #191919;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+  img{
+    padding-left: 50px;
+  }

@@ -1,0 +1,29 @@
+.nyheter {
+    background-color: #F0EFE9;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .nyheter .lines-right {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+  }
+  .nyheter .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nyheter .container h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+  }
+  .nyheter .container form input {
+    padding: 12px 23px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid rgb(192, 190, 190);
+    margin-right: 10px;
+  }
+  
